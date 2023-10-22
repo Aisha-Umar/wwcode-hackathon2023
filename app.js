@@ -30,6 +30,10 @@ app.get("/", (req, res) => {
   res.render("home");
 });
 
+app.get("/reflection-form", (req, res) => {
+  res.render("reflection-form");
+});
+
 app.listen(3000, () => {
   console.log("Serving Lavender on port 3000");
 });
