@@ -1,0 +1,16 @@
+/* .btn{
+     --bs-btn-bg:;
+}  
+*/
+.card{
+    padding-left:0 !important;
+    padding-right:0 !important;
+    border-color:var(--sunshine) !important;
+    border-width:15px !important;
+}
+
+input[type="range"]::-moz-range-thumb, .reflect-btn{
+    background-color:var(--persion-jewel) !important;
+    
+}
+
