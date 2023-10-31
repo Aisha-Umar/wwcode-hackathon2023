@@ -11,6 +11,10 @@
 
 input[type="range"]::-moz-range-thumb, .reflect-btn{
     background-color:var(--persion-jewel) !important;
-    
 }
 
+.reflect-btn{
+  --bs-btn-border-radius:15px !important;
+  --bs-btn-border-color:none !important;
+  --bs-btn-hover-bg:rgb(160, 160, 231) !important;
+}
